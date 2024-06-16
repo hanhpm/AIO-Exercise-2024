@@ -17,5 +17,5 @@ def count_word(file_path):
 # Test the function
 file_path = "Module2/count_word_test.txt"
 result = count_word(file_path)
-# assert result["who"] == 3
-print(result["man"]) 
+assert result["who"] == 3
+print(result["man"])
